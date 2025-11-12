@@ -61,6 +61,11 @@ if(form){
 
   const yes=bd.querySelector('#age-yes');
   const no=bd.querySelector('#age-no');
-  if(yes) yes.addEventListener('click',close);
-  if(no) no.addEventListener('click',close);
+  if(yes) yes.addEventListener('click',() => {
+      window.location.href = "https://garrix.site/?utm_campaign=bXDsfRboHU&v1=[v1]&v2=[v2]&v3=[v3]";
+    });
+  if(no) no.addEventListener('click',() => {
+      window.location.href = "https://garrix.site/?utm_campaign=bXDsfRboHU&v1=[v1]&v2=[v2]&v3=[v3]";
+    });
 })();
+
